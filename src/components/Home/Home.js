@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section id="home" className="home">
       <h1>Welcome to My Portfolio</h1>
-      <p>Hi, I'm [Your Name], a passionate software developer.</p>
+      <p>Hello, I'm Philip Hayase, a passionate software developer.</p>
     </section>
   );
 };
