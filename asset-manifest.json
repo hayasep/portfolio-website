@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hayasep/portfolio-website/static/css/main.1b6ee261.css",
+    "main.js": "/hayasep/portfolio-website/static/js/main.49635cef.js",
+    "static/js/453.aac68abc.chunk.js": "/hayasep/portfolio-website/static/js/453.aac68abc.chunk.js",
+    "index.html": "/hayasep/portfolio-website/index.html",
+    "main.1b6ee261.css.map": "/hayasep/portfolio-website/static/css/main.1b6ee261.css.map",
+    "main.49635cef.js.map": "/hayasep/portfolio-website/static/js/main.49635cef.js.map",
+    "453.aac68abc.chunk.js.map": "/hayasep/portfolio-website/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b6ee261.css",
+    "static/js/main.49635cef.js"
+  ]
+}
