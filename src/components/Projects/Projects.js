@@ -2,6 +2,9 @@
 import React from 'react';
 import './Projects.css';
 import SpaceGame from '../Project/SpaceGame';
+import WorkerBreakout from '../Project/WorkerBreakout';
+import WeatherDashboard from '../Project/WeatherDashboard';
+import ToDoListApp from '../Project/ToDoListApp';
 
 const Projects = () => {
   return (
@@ -9,6 +12,9 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="project-list">
         <SpaceGame />
+        <WorkerBreakout />
+        <WeatherDashboard />
+        <ToDoListApp />
         {/* Add other project components here */}
       </div>
     </section>
