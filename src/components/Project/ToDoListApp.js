@@ -4,7 +4,7 @@ import './Project.css';
 
 const ToDoListApp = () => {
   return (
-    <div className="project">
+    <div className="project animate__animated animate__slideInUp animate__delay-4s">
       <h2>To-Do List Application</h2>
       <p>
         This is a To-Do List application developed using React and Node.js. It allows users to manage their tasks efficiently with features such as adding, editing, and deleting tasks. Key features include:
