@@ -1,25 +1,50 @@
 /* src/components/Navbar/Navbar.css */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-  }
-  
-  .navbar-links {
-    display: flex;
-    list-style: none;
-  }
-  
-  .navbar-links li {
-    margin-left: 1rem;
-  }
-  
-  .navbar-links a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* Add similar CSS files for Home, About, Projects, and Contact components */
-  
+  font-family: 'Arial', sans-serif;
+  background-color: #000000; /* Custom background color */
+  padding: 0.25rem 1rem; /* Reduce padding to make the navbar thinner */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Ensure space between brand and nav items */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff; /* White color for the brand text */
+  margin: 0; /* Remove any extra margin */
+}
+
+.navbar-brand:hover {
+  color: #dcdcdc; /* Light grey color on hover */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center; /* Center the buttons vertically */
+  margin: 0; /* Remove any extra margin */
+}
+
+.navbar-nav .nav-item {
+  margin: 0; /* Remove any extra margin */
+}
+
+.navbar-nav .nav-item .btn {
+  font-size: 1rem;
+  color: #ffffff; /* White color for the buttons */
+  background-color: transparent;
+  border: 1px solid #ffffff; /* White border for the buttons */
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 0.25rem; /* Space out the buttons */
+  padding: 0.3rem 0.5rem; /* Reduce padding to make the buttons smaller */
+  line-height: 1; /* Adjust line height to center vertically */
+}
+
+.navbar-nav .nav-item:last-child .btn {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.navbar-nav .nav-item .btn:hover {
+  background-color: #ffffff;
+  color: #5f5e5e; /* Custom color on hover */
+}

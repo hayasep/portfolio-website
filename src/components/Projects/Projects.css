@@ -1,13 +1,14 @@
 /* src/components/Projects/Projects.css */
 .projects {
   padding: 2rem 1rem;
-  background-color: #f9f9f9;
+  background-color: #5f5e5e;
   text-align: center;
 }
 
 .projects h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  color:black;
 }
 
 .project-list {

@@ -4,9 +4,11 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <section id="home" className="home">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Hello, I'm Philip Hayase, a passionate software developer.</p>
+    <section className="home d-flex align-items-center animate__animated animate__slideInUp">
+      <div className="container text-center">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello, I'm Philip Hayase, a passionate software developer.</p>
+      </div>
     </section>
   );
 };

@@ -8,14 +8,21 @@ import ToDoListApp from '../Project/ToDoListApp';
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
-      <h2>Projects</h2>
-      <div className="project-list">
-        <SpaceGame />
-        <WorkerBreakout />
-        <WeatherDashboard />
-        <ToDoListApp />
-        {/* Add other project components here */}
+    <section id="projects" className="projects container animate__animated animate__slideInRight">
+      <h2 className="text-center my-4">Projects</h2>
+      <div className="row">
+        <div className="col-md-6 col-lg-4 mb-4">
+          <SpaceGame />
+        </div>
+        <div className="col-md-6 col-lg-4 mb-4">
+          <WorkerBreakout />
+        </div>
+        <div className="col-md-6 col-lg-4 mb-4">
+          <WeatherDashboard />
+        </div>
+        <div className="col-md-6 col-lg-4 mb-4">
+          <ToDoListApp />
+        </div>
       </div>
     </section>
   );
