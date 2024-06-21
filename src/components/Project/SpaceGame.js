@@ -4,7 +4,7 @@ import './Project.css';
 
 const SpaceGame = () => {
   return (
-    <div className="project animate__animated animate__slideInUp animate__delay-1s">
+    <div className="project animate__animated animate__fadeIn animate__slideInUp">
       <h2>2D Space Game</h2>
       <p>
         This is a 2D space shooter game developed using JavaScript and Phaser.js. The game features smooth and responsive player controls, a dynamic scoring system, multiplayer, and various power-ups. Key features include:

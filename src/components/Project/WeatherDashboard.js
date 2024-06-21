@@ -4,7 +4,7 @@ import './Project.css';
 
 const WeatherDashboard = () => {
   return (
-    <div className="project animate__animated animate__slideInUp animate__delay-3s">
+    <div className="project animate__animated animate__delay-3s animate__fadeIn">
       <h2>Weather Dashboard</h2>
       <p>
         This is a Weather Dashboard application developed using React and OpenWeatherMap API. It allows users to search for current weather conditions and forecasts for various cities. Key features include:

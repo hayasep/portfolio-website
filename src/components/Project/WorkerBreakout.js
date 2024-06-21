@@ -4,7 +4,7 @@ import './Project.css';
 
 const WorkerBreakout = () => {
   return (
-    <div className="project animate__animated animate__slideInUp animate__delay-2s">
+    <div className="project animate__animated animate__delay-2s animate__fadeIn">
       <h2>Worker Breakout Application</h2>
       <p>
         This is a Flask application designed to manage worker assignments across various sections in a retail environment. The application allows for adding, editing, and deleting workers, calculating worker distribution based on workload, and visualizing the distribution with a bar graph. Key features include:
